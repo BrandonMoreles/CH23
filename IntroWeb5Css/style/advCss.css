@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:#111;
+    background:#ededed;
+}
+.contenedor{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    min-height: 90vh;
+    background-color: #abababab;
+}
+/*Header*/
+h1{
+    text-transform: uppercase;  
+    text-align: center;  
+}
+h1>b{
+    color: #f74;
+}
+.img{
+    height:70px;
+    border-radius: 50%;
+    transition:all 1.5s;
+    border-bottom: solid 5px #444;
+}
+.img:hover{
+    height:180px;
+    border-radius: 50%;
+    border: solid 0px #000;
+}
+.containImg{
+    text-align: center;
+    border-bottom: double #232 4px;
+    padding: 5px;
+}
+.menu ul{
+    text-align: center; 
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+.menu ul li{
+    display:inline-block;
+    position: relative;
+    
+}
+/*Comienza estilo del nav*/
+.menu ul li a{
+    background-color: #445;
+    color: #ddd;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    position: relative;
+    top: 0;
+    margin: 0 10px 0 10px;
+    font-size: 17px;
+}
+.menu ul li ul{
+    position: absolute;
+    top:25px;
+    left:0;
+    list-style-type:none;
+    display:none;
+    height: auto;
+}
+
+
+.menu ul li:hover>ul{
+    display: block;
+}
+.menu ul li ul li{
+    display: block;
+    width: max-content;
+    height: 21px;
+    margin: 0;
+    text-align: left;
+}
+h2{
+    color:#f0563d;
+    text-transform: uppercase;
+}
+h2::before{
+    content:'// ';
+}
+
+ .clearfix:before{
+display: table;
+line-height:0;
+content:"/";
+}
+.pull-flex{
+    float:left;
+}
+.row{
+    padding-left: 10px;
+    padding-right:10px;
+}
+.col{
+    width: 60%;
+}

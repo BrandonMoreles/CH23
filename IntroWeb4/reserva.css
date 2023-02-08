@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: #5678;
+}
+.titulo{
+    color: #000;
+    padding-bottom: 20px;
+}
+.formulario{
+    border: solid #000 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #5778;
+}
+.text{
+    resize: none;
+    width: 50%;
+    height: 50px;
+    margin-bottom:15px;
+}
+.coment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+.verduras{
+    background-color: greenyellow;
+}
+.frutas{
+    background-color: chocolate;
+}
+.carnes{
+    background-color: #932;
+}
+.mascotas{
+    background-color: #C19A6B;
+}
+.lacteos{
+    background-color: #aaa;
+}
+
+
+.ver{
+    background-color: rgb(90, 111, 59);
+}
+.fru{
+    background-color: rgb(142, 91, 55);
+}
+.car{
+    background-color: rgb(96, 54, 47);
+}
+.mas{
+    background-color: #906e45;
+}
+.lac{
+    background-color: rgb(85, 85, 85);
+}
+td{
+    border:solid 2px #000;
+    border-radius: 20px;
+    width: 120px;
+    padding-left: 10px;
+}
+.pago{
+    border: solid 4px #567;
+    border-left: none;
+    background-color: #adf;
+}
+.total{
+    border: solid 4px #567;
+    border-right: none;
+    background-color: #ada;
+}
+

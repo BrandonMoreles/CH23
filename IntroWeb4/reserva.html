@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reserva.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoletosChidos</title>
+</head>
+<body>
+    <h2 class="titulo">Compra tus boletos aqui, por favor ingresa la informacion requerida</h2>
+    <div class="formulario">
+        <form>
+            <input type="name" placeholder="Nombre" required="true">
+            <input type="email" placeholder="Correo electronico" required="true">
+            <div class="destino">
+            <p>Elige el lugar de partida y destino</p>
+            <select name="" id="" required="true"> <!--Empieza lista de seleccion de estados-->
+                <option disabled selected>Origen</option>
+                <option value="">Guerrero</option>
+                <option value="">Quintan Roo</option>
+                <option value="">Queretaro</option>
+                <option value="">Nayarit</option>
+                <option value="">Tijuana</option>
+                <option value="">Oaxaca</option>
+                <option value="">Hidalgo</option>
+                <option value="">Puebla</option>
+            </select>
+            <select name="" id="" required="true">
+                <option disabled selected>Destino</option>
+                <option value="">Guerrero</option>
+                <option value="">Quintan Roo</option>
+                <option value="">Queretaro</option>
+                <option value="">Nayarit</option>
+                <option value="">Tijuana</option>
+                <option value="">Oaxaca</option>
+                <option value="">Hidalgo</option>
+                <option value="">Puebla</option>
+            </select>
+            </div>
+            <p>Por favor ingresa el dia de tu reservacion y hora de tu reservacion</p>
+            <input type="date"required="true">
+            <input type="time" required="true">
+            <p>Indica algunos comentarios o preferencias que tengas</p>
+            <div class="coment">
+            <textarea name="" class="text" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+            <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
