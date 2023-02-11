@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <!--Ejercicio 1-->
+            <form id="formDiv" class="row col-5 sueldo border border-dark border-2 p-3 justify-content-center m-3 border-5">
+                <div class="row justify-content-around">
+                    <input type="number" class="col-5" placeholder="Dividendo" id="dividendo">
+                    <input type="number" class="col-5" placeholder="Divisor" id="divisor">
+                </div>
+                <div class="m-2 row align-items-center justify-content-between">
+                    <button class="mt-4 col-5" id="butDividir">Dividir</button>
+                    <p class="col-5 fw-bold result" id="resultDiv">Resultado</p>
+                </div>
+            </form>
+            <!--Ejercicio 2-->
+            <formc id="impuestos" class=" row col-5 impuestos border border-dark border-2 p-3 justify-content-center m-3 border-5"">
+                <div class="text-center col-5">
+                    <p>Elige tu edad</p>
+                    <input type="number" min="10" max="80" id="edad">
+                </div>
+                <div class="col-5 text-center">
+                    <p>Indica tu salario mensual</p>
+                    <input type="number" min="100" max="1000" step="100" name="" id="salario">
+                </div>
+                <div class="row container justify-content-around h-25 align-items-center" >
+                    <button class="col-3" id="butImpuesto">Impuesto?</button>
+                    <p id="impuesto" class="col-6 fw-bold"></p>
+                </div>
+            </form>
+        </div>
+        <div class="row justify-content-around">
+            <!--Ejercicio 3-->
+            <form   id="formCapicua" class=" row col-5 capioca border mh-100 border-dark border-2 p-3 justify-content-center m-3 border-5">
+                <div class="text-center">
+                    <p class="fw-bold">Escribe un numero Capicua </p>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <input type="number" class="col-5 m-2" id="capicua">
+                    <p class="col-5 p-0 align-content-center fw-bold"id="txtCapicua" ></p>
+                </div>
+            </form>
+            <!--Ejercicio 4-->
+            <form class="col-5 text-center border border-dark border-4 p-3 imc mh-100" id="imc">
+                <p>Indicador de IMC</p>
+                <div class="row justify-content-between">
+                    <input type="number" placeholder="Indica tu peso en libras" class="col-5 m-3" id="peso">
+                    <input type="number" placeholder="Indica tu estatura en cm" class="col-5 m-3" id="estatura">
+                </div>
+                <div class="row justify-content-around align-items-center">
+                    <h6 class="col-3" id="imc1">Criterio de ingreso</h6>
+                    <h6 class="col-3" id="imc2">Infrapeso</h6>
+                    <h6 class="col-3" id="imc3">Bajo peso</h6>
+                    <h6 class="col-3" id="imc4">Peso normal</h6>
+                </div>
+                <div class="row justify-content-around align-items-center">
+                    <h6 class="col-3" id="imc5">Sobrepeso</h6>
+                    <h6 class="col-3" id="imc6">Obesidad premorbida</h6>
+                    <h6 class="col-3" id="imc7">Obesidad morbida</h6>
+                    <h6 class="col-3" id="imc8">Obesidad hipermorbida</h6>
+                </div>
+                <div class="row justify-content-around align-content-center">
+                    <button class="col-5 h-100 m-3" id="botIMC" >Calcula tu imc</button>
+                    <p class="col-5 fw-bold h-100" id="txtIMC"></p>
+                </div>
+            </form>
+        </div>
+        <div class="row justify-content-around">
+            <!--Ejercicio 5-->
+            <form class=" text-center container formMes col-5 mes p-3 border border-dark border-5 align-self-center m-3" id="forMes">
+                <p>Digita enl numero del mes</p>
+                <input type="number" id="mes"  class="text-center">
+                <p class=" text-center" id="txtMes"></p>    
+            </form>
+            <!--Ejercicio 6-->
+            <form class="text-center container col-5 feliz p-3 border border-dark border-5 align-self-center m-3 formFeliz" id="formFeliz">
+                <p class="fw-bold">Digita tu numero de 4 digitos</p>
+                <input type="number" id="feliz">
+                <button id="butFeliz">Es feliz?</button>
+                <p class="fw-bold">El numero es</p><p id="txtFeliz" class="fw-bold">NoData</p>
+            </form>
+        </div>
+        <div class="row justify-content-around">
+            <!--Ejercicio 7-->
+            <form id="formInterval" class=" text-center container row  col-5  p-3 border border-dark border-5 align-self-center m-3 intervalo">
+                <div class="col-4">
+                    <p class="fw-bold">Escribe el primer valor del intervalo</p>
+                    <input type="number" id="priNum">
+                </div>
+                <div class="col-4">
+                    <p class="fw-bold">Escribe el ultimo valor del intervalo</p>
+                    <input type="number" id="segNum" >
+                </div>
+                <div class="col-4 fw-bold">
+                    <p>Escribe el numero que quieres buscar</p>
+                    <input type="number" id="interval">
+                </div>
+                <div class="row justify-content-around mt-3 m-lg-3 align-items-center">
+                    <button class="col-3" id="butInterval">Buscar</button>
+                    <p class="col-5 fw-bolder text-center pt-3" id="txtInterval">Indefinido</p>
+                </div>
+            </form>
+            <!--Ejercicio 8-->
+            <form id="formSeconds" class="justify-content-around timer text-center container row  col-5  p-3 border border-dark border-5 align-self-center m-3 intervalo">
+                <div class="col-4 p-2">
+                    <p class="fw-bold">Digita la hora</p>
+                    <select name="" id="hour">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="col-4 p-2 ">
+                    <p class="fw-bold">Digita los minutos</p>
+                    <select name="" id="minutes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
+                        <option value="46">46</option>
+                        <option value="47">47</option>
+                        <option value="48">48</option>
+                        <option value="49">49</option>
+                        <option value="50">50</option>
+                        <option value="51">51</option>
+                        <option value="52">52</option>
+                        <option value="53">53</option>
+                        <option value="54">54</option>
+                        <option value="55">55</option>
+                        <option value="56">56</option>
+                        <option value="57">57</option>
+                        <option value="58">58</option>
+                        <option value="59">59</option>
+                        <option value="60">60</option>
+                    </select>
+                </div>
+                <div class="col-4 p-2">
+                    <p class="fw-bold">Digita los segs</p>
+                    <select name="" id="seconds">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
+                        <option value="46">46</option>
+                        <option value="47">47</option>
+                        <option value="48">48</option>
+                        <option value="49">49</option>
+                        <option value="50">50</option>
+                        <option value="51">51</option>
+                        <option value="52">52</option>
+                        <option value="53">53</option>
+                        <option value="54">54</option>
+                        <option value="55">55</option>
+                        <option value="56">56</option>
+                        <option value="57">57</option>
+                        <option value="58">58</option>
+                        <option value="59">59</option>
+                        <option value="60">60</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <select id="meridian">
+                        <option value="am">AM</option>
+                        <option value="pm">PM</option>
+                    </select>
+                </div>
+                <p class="col-3 fw-bold">Han pasado</p>
+                <p class="col-3 fw-bold" id="txtSeconds">0 seg</p>
+                <button class="col-6" id="butSeconds">Get Seconds</button>
+            </form>
+    </div>
+    <script src="/js/domEdit.js"></script>
+    <script src="/js/ejercicios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

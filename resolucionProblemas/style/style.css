@@ -1,0 +1,71 @@
+/*Empieza las clases del primer ejercicio*/
+.sueldo{
+    border-radius: 20px;
+    background-image:url(/img/money.jpeg)
+
+}
+.p-30{
+    padding-top: 30px;
+    padding-left: 30px
+}
+.size{
+    font-size: 20px;
+}
+.pa{
+    padding:0;
+    align-content: center;
+    width: 20px;
+    height: 25px;
+}
+/*Empieza las clases del segundo ejercicio*/
+.impuestos{
+    background-image: url(/img/impuestos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.capioca{
+    background-image: url(/img/capicua.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.imc{
+    background-image: url(/img/imc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.colour{
+    background-color: red;
+    border: solid 2px #000;
+    width: max-content;
+    height: max-content;
+}
+.mes{
+    background-image: url(/img/mes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+}
+.formMes{
+height: 150px!important;
+}
+.formFeliz{
+    background-image: url(/img/feliz.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+}
+.intervalo{
+    background-image: url(/img/mates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+}
+.timer{
+    background-image: url(/img/reloj.jpeg);
+}
+.result{
+    font-size: 40px;
+}
