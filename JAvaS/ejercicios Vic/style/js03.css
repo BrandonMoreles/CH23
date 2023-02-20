@@ -1,0 +1,46 @@
+body{
+    background-color: #adffda;
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    border:solid 2px #333;
+    width: 75%;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 20px;
+    background-color: #adffda;
+    margin: auto;
+    margin-top: 200px;
+}
+input{
+    margin: 5px;
+    border-radius: 20px;
+    width:200px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;}
+button{
+    border-radius: 20px;
+    background-color: #244;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    color: aliceblue;
+}
+#txtYear{
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    background-color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
+.hour{
+    text-align: center
+}
+select{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+}

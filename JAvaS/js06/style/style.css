@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #29dfca;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+#botonSuma{
+    background-color: #0988df;
+    width: 25px;
+    height: 25px;
+}
+#botonResta{
+    background-color: #885763;
+    width: 25px;
+    height: 25px;
+}
+#botonMult{
+    background-color: #ffda2344;
+    width: 25px;
+    height: 25px;
+}
+#botonDiv{
+    background-color: #ee43cd;
+    width: 25px;
+    height: 25px;
+}

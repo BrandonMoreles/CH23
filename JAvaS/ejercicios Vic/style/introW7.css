@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: #df239a;
+    border-radius: 20px;
+}
+#writeName{
+    font-size: 25px;
+}
+#insertName{
+    font-size: 20px;
+}
+.fondo{
+    background-image: url(/img/crucero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 800px;
+}
