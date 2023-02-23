@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background-color: #ead2ac;
+    padding: 20px;
+    border: solid #000 3px;
+    border-radius: 20px;
+    height: 40vh;
+    justify-content: space-around;
+    
+}
+.inputs{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background-color: #ead2ac;
+    padding: 20px;
+    border: solid #000 3px;
+    border-radius: 20px;
+    
+    justify-content: space-around;
+    
+}
+input{
+    height:50%;
+    font-size: 9px;
+    width: 60%;
+}
+
+.mensajes{
+    border: 2px #000 solid;
+    display: flex;
+
+}
+.intentar{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+
+}
+#ingresados{
+    height: 90%;
+    border: solid #000 2px;
+}
+
